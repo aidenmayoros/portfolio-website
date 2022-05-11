@@ -6,8 +6,8 @@ export default function NavBar() {
 		<div className='navContainer'>
 			<nav>
 				<Link to='/'>Home |</Link>
-				<Link to='/about'>About |</Link>
 				<Link to='/projects'>Projects |</Link>
+				<Link to='/about'>About |</Link>
 				<Link to='/Contact'>Contact</Link>
 			</nav>
 		</div>

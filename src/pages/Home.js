@@ -10,7 +10,7 @@ export default function HomePage() {
 				</h2>
 				<h3>
 					Check out some of the awesome
-					<br /> projects I have made!
+					<br /> projects I've made!
 				</h3>
 			</div>
 		</div>
