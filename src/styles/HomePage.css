@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -15,13 +15,17 @@ html {
 
 body {
   color: white;
+  font-family: 'M PLUS 1p', sans-serif;
 }
 
 .homePage-maintext {
   margin: 20vh 0 0 10vw;
 }
 
+.homePage-maintext h3 {
+  margin-top: 10vh;
+}
+
 #homePage-greeting {
-  font-family: 'Audiowide', cursive;
   margin-bottom: .5em;
 }

@@ -1,16 +1,15 @@
 import "../styles/NavBar.css";
-import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
 	return (
 		<div className='navContainer'>
-			<a href=''>Home</a>
-			<p>|</p>
-			<a href=''>About</a>
-			<p>|</p>
-			<a href=''>Projects</a>
-			<p>|</p>
-			<a href=''>Contact</a>
+			<nav>
+				<Link to='/'>Home |</Link>
+				<Link to='/about'>About |</Link>
+				<Link to='/projects'>Projects |</Link>
+				<Link to='/Contact'>Contact</Link>
+			</nav>
 		</div>
 	);
 }
