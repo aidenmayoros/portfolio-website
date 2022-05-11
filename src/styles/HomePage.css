@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html { 
+  background: url(../images/macbook1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  color: white;
+}
+
+.homePage-maintext {
+  margin: 20vh 0 0 10vw;
+}
+
+#homePage-greeting {
+  font-family: 'Audiowide', cursive;
+  margin-bottom: .5em;
+}

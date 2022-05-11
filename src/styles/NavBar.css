@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navContainer {
+  background-color: #ffff;
+  display: flex;
+  width: 100%;
+  padding: 1em;
+  justify-content: center;
+}
+
+.navContainer a,
+.navContainer p {
+  margin: .5em;
+  font-family: 'Audiowide', cursive;
+  color: black;
+}
