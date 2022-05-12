@@ -1,16 +1,18 @@
+import "../styles/projectsPage.css";
 import projects from "../data/projects";
 
 export default function ProjectsPage() {
-	console.log(projects);
 	return (
-		<div className='projectsMainContainer'>
-			<h1>Recent Projects</h1>
-			<div className='allProjects'>
+		<div className='projectsMainContainer' style={{ backgroundColor: "black" }}>
+			<div className='projetsParent'>
 				{projects.map((project, i) => {
 					return (
 						<div key={i}>
-							<h3>{project.projectName}</h3>
-							<img src={project.img} alt='Project image'></img>
+							<h3 className='projectHeaders'>{project.projectName}</h3>
+							<img
+								style={{ width: "350px", height: "250px" }}
+								src={project.img}
+								alt='Project image'></img>
 						</div>
 					);
 				})}

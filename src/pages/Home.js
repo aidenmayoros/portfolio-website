@@ -1,6 +1,5 @@
 import "../styles/HomePage.css";
 import { Avatar } from "@mui/material";
-import aidenAvatar from "../images/aiden-avatar.jpg";
 
 export default function HomePage() {
 	return (
@@ -8,7 +7,7 @@ export default function HomePage() {
 			<div className='homePage-maintext'>
 				<Avatar
 					alt='Aiden Mayoros'
-					src={aidenAvatar}
+					src='/images/aiden-avatar.jpg'
 					sx={{ width: 80, height: 80 }}
 				/>
 				<h1 id='homePage-greeting'>Aiden Mayoros</h1>

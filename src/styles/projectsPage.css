@@ -1,0 +1,19 @@
+.projectsMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projetsParent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+.projectHeaders {
+  margin-bottom: 16px;
+}
