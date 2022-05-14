@@ -1,19 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
-
 a {
   text-decoration: none;
   color: black;
-}
-
-.navContainer {
-  background-color: #ffff;
-  display: flex;
-  width: 100%;
-  padding: 1em;
-  justify-content: center;
-  font-family: 'M PLUS 1p', sans-serif;
-}
-
-.navContainer a {
-  margin-right: .5em;
+  margin-right: 0.5em;
+  font-size: 1.3em;
 }
