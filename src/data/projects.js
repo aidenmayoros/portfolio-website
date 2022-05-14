@@ -12,6 +12,10 @@ export default [
 		img: "/images/dndPreview.png",
 	},
 	{
+		projectName: "Calculator with React.JS",
+		img: "/images/calculator-preview.png",
+	},
+	{
 		projectName: "Mortgage Calculator with JavaScript",
 		img: "/images/mortgage-calculator-preview.png",
 	},

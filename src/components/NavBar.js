@@ -24,9 +24,6 @@ export default function NavBar() {
 				<ListItem button onClick={() => navigate("/projects")}>
 					<ListItemText primary={"Projects"} />
 				</ListItem>
-				<ListItem button onClick={() => navigate("/about")}>
-					<ListItemText primary={"About"} />
-				</ListItem>
 				<ListItem button onClick={() => navigate("/contact")}>
 					<ListItemText primary={"Contact"} />
 				</ListItem>
