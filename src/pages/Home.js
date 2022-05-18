@@ -16,12 +16,12 @@ export default function HomePage() {
 				<Fade left duration={1000}>
 					<Typography variant='h2'>Aiden Mayoros</Typography>
 				</Fade>
-				<Fade left duration={1000} delay={1500}>
+				<Fade left duration={1000} delay={1200}>
 					<Typography variant='h2' fontSize='2em'>
 						Jr. Software Engineer and <br /> Web Developer
 					</Typography>
 				</Fade>
-				<Fade bottom duration={1000} delay={3500}>
+				<Fade bottom duration={1000} delay={2500}>
 					<Typography
 						variant='h4'
 						fontWeight='300'
