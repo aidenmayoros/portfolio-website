@@ -21,6 +21,13 @@ root.render(
 				<Route path='/' element={<HomePage />} />
 				<Route path='/projects' element={<ProjectsPage />} />
 				<Route path='/contact' element={<ContactPage />} />
+				<Route path='/weather_forecast' element={<ContactPage />} />
+				<Route path='/image_carousel' element={<ContactPage />} />
+				<Route path='/dnd_character' element={<ContactPage />} />
+				<Route path='/calculator' element={<ContactPage />} />
+				<Route path='/mortgage_calculator' element={<ContactPage />} />
+				<Route path='/tic-tac-toe' element={<ContactPage />} />
+				<Route path='/world_clock' element={<ContactPage />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>

@@ -1,33 +1,52 @@
-import "../styles/NavBar.css";
 import { Box } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import { List } from "@mui/material";
-import { ListItem } from "@mui/material";
-import { ListItemText } from "@mui/material";
+import { Button } from "@mui/material";
 
 export default function NavBar() {
 	let navigate = useNavigate();
 
 	return (
-		<List
+		<Box
 			sx={{
 				display: "flex",
 				padding: "1em",
 				justifyContent: "center",
+				alignItems: "center",
 				color: "black",
 				backgroundColor: "#ffff",
 			}}>
-			<Box sx={{ display: "flex" }}>
-				<ListItem button onClick={() => navigate("/")}>
-					<ListItemText primary={"Home"} />
-				</ListItem>
-				<ListItem button onClick={() => navigate("/projects")}>
-					<ListItemText primary={"Projects"} />
-				</ListItem>
-				<ListItem button onClick={() => navigate("/contact")}>
-					<ListItemText primary={"Contact"} />
-				</ListItem>
-			</Box>
-		</List>
+			<Button
+				variant='text'
+				onClick={() => navigate("/")}
+				sx={{
+					color: "black",
+					mr: 2,
+					borderRadius: "6px",
+					":hover": { backgroundColor: "black", color: "white" },
+				}}>
+				Home
+			</Button>
+			<Button
+				variant='text'
+				onClick={() => navigate("/projects")}
+				sx={{
+					color: "black",
+					mr: 2,
+					borderRadius: "6px",
+					":hover": { backgroundColor: "black", color: "white" },
+				}}>
+				Projects
+			</Button>
+			<Button
+				variant='text'
+				onClick={() => navigate("/contact")}
+				sx={{
+					color: "black",
+					borderRadius: "6px",
+					":hover": { backgroundColor: "black", color: "white" },
+				}}>
+				Contact
+			</Button>
+		</Box>
 	);
 }

@@ -2,6 +2,7 @@ import "../styles/HomePage.css";
 import { Avatar } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import { Box } from "@mui/system";
+import { Fade } from "react-reveal";
 
 export default function HomePage() {
 	return (
@@ -10,19 +11,25 @@ export default function HomePage() {
 				<Avatar
 					alt='Aiden Mayoros'
 					src='/images/aiden-avatar.jpg'
-					sx={{ width: 80, height: 80 }}
+					sx={{ width: 80, height: 80, mb: 3 }}
 				/>
-				<Typography variant='h2'>Aiden Mayoros</Typography>
-				<Typography variant='h2' fontSize='2em'>
-					Jr. Software Engineer and <br /> Web Developer
-				</Typography>
-				<Typography
-					variant='h4'
-					fontWeight='300'
-					sx={{ fontSize: "1.2em", mt: 5 }}>
-					Check out some of the awesome
-					<br /> projects I've made!
-				</Typography>
+				<Fade left duration={1000}>
+					<Typography variant='h2'>Aiden Mayoros</Typography>
+				</Fade>
+				<Fade left duration={1000} delay={1500}>
+					<Typography variant='h2' fontSize='2em'>
+						Jr. Software Engineer and <br /> Web Developer
+					</Typography>
+				</Fade>
+				<Fade bottom duration={1000} delay={3500}>
+					<Typography
+						variant='h4'
+						fontWeight='300'
+						sx={{ fontSize: "1.2em", mt: 5 }}>
+						Check out some of the awesome
+						<br /> projects I've made!
+					</Typography>
+				</Fade>
 			</Box>
 		</Box>
 	);
