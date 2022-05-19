@@ -36,8 +36,8 @@ export default function ProjectsPage() {
 								</Typography>
 								<img
 									style={{
-										width: "350px",
-										height: "250px",
+										width: "450px",
+										height: "300px",
 										borderRadius: "12px",
 									}}
 									src={project.img}

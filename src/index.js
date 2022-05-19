@@ -11,24 +11,27 @@ import NavBar from "./components/NavBar";
 import HomePage from "./pages/Home";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
+import projects from "./data/projects";
+import ProjectDetails from "./components/projectDetails";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	<React.StrictMode>
+	<>
 		<Router>
 			<NavBar />
 			<Routes>
 				<Route path='/' element={<HomePage />} />
 				<Route path='/projects' element={<ProjectsPage />} />
 				<Route path='/contact' element={<ContactPage />} />
-				<Route path='/weather_forecast' element={<ContactPage />} />
-				<Route path='/image_carousel' element={<ContactPage />} />
-				<Route path='/dnd_character' element={<ContactPage />} />
-				<Route path='/calculator' element={<ContactPage />} />
-				<Route path='/mortgage_calculator' element={<ContactPage />} />
-				<Route path='/tic-tac-toe' element={<ContactPage />} />
-				<Route path='/world_clock' element={<ContactPage />} />
+				{projects.map((page, i) => {
+					return (
+						<Route
+							key={page.projectName}
+							path={page.pathLink}
+							element={<ProjectDetails project={projects[i]} />}></Route>
+					);
+				})}
 			</Routes>
 		</Router>
-	</React.StrictMode>
+	</>
 );
