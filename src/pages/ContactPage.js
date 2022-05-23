@@ -8,10 +8,10 @@ import { Fade } from "react-reveal";
 export default function ContactPage() {
 	return (
 		<Box
+			className='home-container'
 			sx={{
 				display: "flex",
 				flexDirection: "column",
-				justifyContent: "center",
 				alignItems: "center",
 			}}>
 			<Fade left duration={1000}>
@@ -25,7 +25,7 @@ export default function ContactPage() {
 						display: "flex",
 						justifyContent: "center",
 						borderRadius: "12px",
-						mt: 5,
+						mt: 2,
 						padding: 1,
 						width: "100%",
 					}}>

@@ -38,7 +38,7 @@ export default function ProjectDetails({ project }) {
 						fontWeight={300}>
 						Project challenges
 					</Typography>
-					<Typography sx={{ fontSize: 24, mt: 1 }}>
+					<Typography sx={{ fontSize: 20, mt: 1 }}>
 						{project.challenges}
 					</Typography>
 				</Fade>
@@ -49,7 +49,7 @@ export default function ProjectDetails({ project }) {
 						fontWeight={300}>
 						What I learned
 					</Typography>
-					<Typography sx={{ fontSize: 24 }}>
+					<Typography sx={{ fontSize: 20 }}>
 						{project.knowledgeLearned}
 					</Typography>
 				</Fade>
@@ -60,7 +60,7 @@ export default function ProjectDetails({ project }) {
 						fontWeight={300}>
 						Technologies Used
 					</Typography>
-					<Typography sx={{ mt: "2em", fontSize: 24 }}>
+					<Typography sx={{ mt: "2em", mb: 4, fontSize: 20 }}>
 						{project.technologiesUsed}
 					</Typography>
 				</Fade>
