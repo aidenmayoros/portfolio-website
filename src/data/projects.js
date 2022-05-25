@@ -8,6 +8,8 @@ export default [
 		knowledgeLearned:
 			"The main thing I learned from this project is how important documentation is to read & understand. In this project I also learned how to use the built-in javascript map prototype method to create & return an array of components, each representing a weather day of the week.",
 		technologiesUsed: "React | Bootstrap | OpenWeatherMap API",
+		appLink:
+			"https://aiden-mayoros-website.herokuapp.com/weather_forecast/app/",
 	},
 	{
 		projectName: "Image Carousel",
@@ -18,6 +20,7 @@ export default [
 		knowledgeLearned:
 			"A key point I learned from this project was that using built-in Javascript methods made my code a lot nicer and easier to read & digest. This project was one of the first projects where I had to use HTML, CSS, and Javascript to query the DOM. I now understand the importance of using them, as they are just shortcuts to common programming tasks. I also learned that if I'm struggling with a specific issue, there are a lot of online resources & smart people out there that that I can refer to.",
 		technologiesUsed: "HTML | CSS | JavaScript",
+		appLink: "https://aiden-mayoros-website.herokuapp.com/image_carousel/app/",
 	},
 	{
 		projectName: "DnD Character Website",
@@ -28,6 +31,7 @@ export default [
 		knowledgeLearned:
 			"I learned in this project how to use React Router to switch between components based on URL routes which I ended up using in my later React projects. This project also introduced me to custom hooks. Up to this point, I was mainly using the useState and useEffect hooks, but this project introduced the useNavigation hook to route between components. I also learned that there are a lot of CSS effects that are already out there to use, and you do not have to make them yourself from scratch. I had found the CSS flip card effect online and was able to use it and edit it to my liking.",
 		technologiesUsed: "React | React Router",
+		appLink: "https://aiden-mayoros-website.herokuapp.com/dnd_character/app/",
 	},
 	{
 		projectName: "Simple Calculator",
@@ -38,6 +42,7 @@ export default [
 		knowledgeLearned:
 			"I learned how to structure components in a project and organize them all in a larger project. Learned how to use state more and passing state down to other components as props. This project helped me a lot put all the pieces of React together into a project and really see the benefits of using React and state over just querying the DOM directly with vanilla Javascript.",
 		technologiesUsed: "React",
+		appLink: "https://aiden-mayoros-website.herokuapp.com/calculator/app/",
 	},
 	{
 		projectName: "Mortgage Calculator with JavaScript",
@@ -48,6 +53,8 @@ export default [
 		knowledgeLearned:
 			"I learned how to manipulate the DOM via JavaScript and the document object and writing functions with math equations to compute data. I also learned how to use conditional statements for form validation.",
 		technologiesUsed: "HTML | CSS | JavaScript",
+		appLink:
+			"https://aiden-mayoros-website.herokuapp.com/mortgage_calculator/app/",
 	},
 	{
 		projectName: "Tic Tac Toe with JavaScript",
@@ -58,6 +65,7 @@ export default [
 		knowledgeLearned:
 			"I learned the importance of keeping functions simple, and not stuffing too much logic into a single function. I seperated business logic into smaller functions and composed them together, which led to more readable & understandable code.",
 		technologiesUsed: "HTML | CSS | JavaScript",
+		appLink: "https://aiden-mayoros-website.herokuapp.com/tic-tac-toe/app/",
 	},
 	{
 		projectName: "World Clock",
@@ -68,5 +76,6 @@ export default [
 		knowledgeLearned:
 			"I learned async/await and developed a knowledge of JavaScript promisses. This project also allowed me to deepen my knowledge of using API's.",
 		technologiesUsed: "HTML | CSS | JavaScript | OpenWeatherMap API",
+		appLink: "https://aiden-mayoros-website.herokuapp.com/world_clock/app/",
 	},
 ];

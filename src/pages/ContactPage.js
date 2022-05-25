@@ -8,17 +8,17 @@ import styled from "@emotion/styled";
 import "../styles/contact.css";
 
 const SocialBox = styled("div")({
-	padding: "16px",
-	margin: "16px",
+	// padding: "16px",
+	// margin: "16px",
 	display: "flex",
-	flexDirection: "column",
+	// flexDirection: "column",
 	alignItems: "center",
-	border: "3px solid white",
-	borderRadius: ".5em",
+	// border: "3px solid white",
+	// borderRadius: ".5em",
 });
 
 const iconStyles = {
-	fontSize: "55px",
+	fontSize: "32px",
 	p: 1,
 	":hover": { backgroundColor: "white", borderRadius: "12px" },
 };
@@ -32,55 +32,51 @@ export default function ContactPage() {
 				flexDirection: "column",
 				alignItems: "center",
 			}}>
-			<Fade left duration={1000}>
-				<Typography variant='h2' fontSize='3em' sx={{ mt: 4 }}>
-					Let's Connect
-				</Typography>
-			</Fade>
-			<Fade bottom delay={1200}>
-				<Box
-					sx={{
-						display: "grid",
-						gridTemplateColumns: "1fr 1fr",
-						justifyContent: "center",
-						borderRadius: "12px",
-						mt: 2,
-						width: "100%",
-					}}>
-					<SocialBox>
-						<Button
-							sx={{ fontSize: "80px" }}
-							href='mailto:aiden.mayoros@gmail.com'>
-							<EmailIcon color='primary' sx={iconStyles} />
-						</Button>
-						<Typography sx={{ color: "white", textDecoration: "none" }}>
-							aiden.mayoros@gmail.com
-						</Typography>
-					</SocialBox>
-					<SocialBox>
-						<Button disabled sx={{ fontSize: "80px" }}>
-							<LocalPhoneIcon color='primary' sx={iconStyles} />
-						</Button>
-						<Typography>Cell: (480)-408-9254</Typography>
-					</SocialBox>
-					<SocialBox>
-						<Button
-							sx={{ fontSize: "80px" }}
-							href='https://github.com/aidenmayoros'>
-							<GitHubIcon color='primary' sx={iconStyles} />
-						</Button>
-						<Typography>Git hub</Typography>
-					</SocialBox>
-					<SocialBox>
-						<Button
-							sx={{ fontSize: "80px" }}
-							href='https://www.linkedin.com/in/aiden-mayoros/'>
-							<LinkedInIcon color='primary' sx={iconStyles} />
-						</Button>
-						<Typography>LinkedIn</Typography>
-					</SocialBox>
-				</Box>
-			</Fade>
+			<Box>
+				<Fade left duration={1000}>
+					<Typography variant='h2' fontSize='3em' sx={{ mt: 4 }}>
+						Let's Connect
+					</Typography>
+				</Fade>
+				<Fade bottom delay={1200}>
+					<Box
+						sx={{
+							display: "grid",
+							gridTemplateColumns: "1fr",
+							justifyContent: "center",
+							borderRadius: "12px",
+							mt: 2,
+							width: "100%",
+						}}>
+						<SocialBox>
+							<Button href='mailto:aiden.mayoros@gmail.com'>
+								<EmailIcon color='primary' sx={iconStyles} />
+							</Button>
+							<Typography sx={{ color: "white" }}>
+								aiden.mayoros@gmail.com
+							</Typography>
+						</SocialBox>
+						<SocialBox>
+							<Button disabled>
+								<LocalPhoneIcon color='primary' sx={iconStyles} />
+							</Button>
+							<Typography>Cell: (480)-408-9254</Typography>
+						</SocialBox>
+						<SocialBox>
+							<Button href='https://github.com/aidenmayoros'>
+								<GitHubIcon color='primary' sx={iconStyles} />
+							</Button>
+							<Typography>Github</Typography>
+						</SocialBox>
+						<SocialBox>
+							<Button href='https://www.linkedin.com/in/aiden-mayoros/'>
+								<LinkedInIcon color='primary' sx={iconStyles} />
+							</Button>
+							<Typography>LinkedIn</Typography>
+						</SocialBox>
+					</Box>
+				</Fade>
+			</Box>
 		</Box>
 	);
 }

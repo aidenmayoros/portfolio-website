@@ -37,8 +37,7 @@ export default function ProjectsPage() {
 								<img
 									style={{
 										width: "450px",
-										height: "300px",
-										borderRadius: "12px",
+										borderRadius: "4px",
 									}}
 									src={project.img}
 									alt='Project Preview'></img>
@@ -47,17 +46,18 @@ export default function ProjectsPage() {
 										display: "flex",
 										justifyContent: "space-evenly",
 										flexDirection: "row",
+										mt: 2,
 									}}>
 									<Button
-										variant='outlined'
-										onClick={() => navigate(project.pathLink)}
-										sx={{ color: "white", mt: 2, borderColor: "white" }}>
+										variant='contained'
+										onClick={() => {
+											window.location = project.appLink;
+										}}>
 										View Project
 									</Button>
 									<Button
 										variant='outlined'
-										onClick={() => navigate(project.pathLink)}
-										sx={{ color: "white", mt: 2, borderColor: "white" }}>
+										onClick={() => navigate(project.pathLink)}>
 										View Details
 									</Button>
 								</Box>

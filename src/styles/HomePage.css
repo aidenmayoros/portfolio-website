@@ -9,10 +9,11 @@ body {
 }
 
 .home-container {
-  background: url("../images/macbook1.jpg") no-repeat fixed; 
+  background: url("../images/macbook1.jpg") no-repeat; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  background-position: right 50%;
+  height: calc(100vh - 70px);
 }
