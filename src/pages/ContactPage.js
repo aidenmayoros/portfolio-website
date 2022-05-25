@@ -5,6 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Fade } from "react-reveal";
 import styled from "@emotion/styled";
+import "../styles/contact.css";
 
 const SocialBox = styled("div")({
 	padding: "16px",
@@ -12,9 +13,15 @@ const SocialBox = styled("div")({
 	display: "flex",
 	flexDirection: "column",
 	alignItems: "center",
-	border: "3px solid #1976d1",
+	border: "3px solid white",
 	borderRadius: ".5em",
 });
+
+const iconStyles = {
+	fontSize: "55px",
+	p: 1,
+	":hover": { backgroundColor: "white", borderRadius: "12px" },
+};
 
 export default function ContactPage() {
 	return (
@@ -44,19 +51,15 @@ export default function ContactPage() {
 						<Button
 							sx={{ fontSize: "80px" }}
 							href='mailto:aiden.mayoros@gmail.com'>
-							<EmailIcon color='primary' sx={{ fontSize: "55px" }} />
+							<EmailIcon color='primary' sx={iconStyles} />
 						</Button>
-						<Typography>
-							<Link
-								sx={{ color: "white" }}
-								href='mailto:aiden.mayoros@gmail.com'>
-								aiden.mayoros@gmail.com
-							</Link>
+						<Typography sx={{ color: "white", textDecoration: "none" }}>
+							aiden.mayoros@gmail.com
 						</Typography>
 					</SocialBox>
 					<SocialBox>
 						<Button disabled sx={{ fontSize: "80px" }}>
-							<LocalPhoneIcon color='primary' sx={{ fontSize: "55px" }} />
+							<LocalPhoneIcon color='primary' sx={iconStyles} />
 						</Button>
 						<Typography>Cell: (480)-408-9254</Typography>
 					</SocialBox>
@@ -64,7 +67,7 @@ export default function ContactPage() {
 						<Button
 							sx={{ fontSize: "80px" }}
 							href='https://github.com/aidenmayoros'>
-							<GitHubIcon color='primary' sx={{ fontSize: "55px" }} />
+							<GitHubIcon color='primary' sx={iconStyles} />
 						</Button>
 						<Typography>Git hub</Typography>
 					</SocialBox>
@@ -72,7 +75,7 @@ export default function ContactPage() {
 						<Button
 							sx={{ fontSize: "80px" }}
 							href='https://www.linkedin.com/in/aiden-mayoros/'>
-							<LinkedInIcon color='primary' sx={{ fontSize: "55px" }} />
+							<LinkedInIcon color='primary' sx={iconStyles} />
 						</Button>
 						<Typography>LinkedIn</Typography>
 					</SocialBox>
