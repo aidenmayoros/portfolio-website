@@ -11,7 +11,7 @@ export default function HomePage() {
 
 	return (
 		<Box className='home-container'>
-			<Box sx={{ position: "relative", left: "150px", top: "120px" }}>
+			<Box className='home-main-content' sx={{ position: "relative" }}>
 				<Fade top>
 					<Avatar
 						alt='Aiden Mayoros'
@@ -20,32 +20,24 @@ export default function HomePage() {
 					/>
 				</Fade>
 				<Fade left delay={1000}>
-					<Typography variant='h2' fontSize='5em'>
-						Aiden Mayoros
-					</Typography>
+					<Typography variant='h1'>Aiden Mayoros</Typography>
 				</Fade>
 				<Fade left delay={2000}>
-					<Typography variant='h2' fontSize='2em'>
+					<Typography variant='h2'>
 						Jr. Software Engineer and <br /> Web Developer
 					</Typography>
 				</Fade>
 				<Fade bottom delay={3000}>
-					<Typography
-						variant='h4'
-						fontWeight='300'
-						sx={{ fontSize: "1.5em", mt: 5 }}>
+					<Typography variant='h4' fontWeight='300' sx={{ mt: 5 }}>
 						Check out some of the awesome
 						<br /> projects I've made!
 					</Typography>
 
-					<Box sx={{ marginTop: "24px" }}>
+					<Box className='home-page-buttons'>
 						<Button variant='contained' onClick={() => navigate("/projects")}>
 							View Projects
 						</Button>
-						<Button
-							sx={{ marginLeft: "24px" }}
-							variant='outlined'
-							onClick={() => navigate("/contact")}>
+						<Button variant='outlined' onClick={() => navigate("/contact")}>
 							Contact Me
 						</Button>
 					</Box>

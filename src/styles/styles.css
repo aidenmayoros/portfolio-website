@@ -30,6 +30,79 @@ body::-webkit-scrollbar {
   height: calc(100vh - 72px);
 }
 
+.home-main-content {
+  left: 150px;
+  top: 120px;
+}
+
+.home-page-buttons {
+  display: flex;
+  margin-top: 1em;
+}
+
+.home-page-buttons button {
+  margin-right: 1em;
+}
+
+#connect-page-header {
+  margin-top: 1em;
+  text-align: center;
+}
+
 .project-details-container {
   height: calc(100vh - 72px);
+}
+
+@media only screen and (max-width: 480px) {
+
+  .home-container {
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .home-container h1 {
+    font-size: 2.5em;
+  }
+
+  .home-container h2 {
+    font-size: 1.2em;
+  }
+
+  .home-container h4 {
+    font-size: 1.1em;
+  }
+
+  .home-main-content {
+    left: auto;
+    right: auto;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-page-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1em;
+  }
+
+  .home-page-buttons button {
+    margin-top: .5em;
+  }
+
+  #connect-page-header {
+    font-size: 2em;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 481px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
 }

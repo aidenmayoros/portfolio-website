@@ -5,6 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Fade } from "react-reveal";
 import styled from "@emotion/styled";
+import "../styles/styles.css";
 
 const SocialBox = styled("div")({
 	display: "flex",
@@ -28,7 +29,7 @@ export default function ContactPage() {
 			}}>
 			<Box>
 				<Fade left duration={1000}>
-					<Typography variant='h2' fontSize='3em' sx={{ mt: 4, ml: 2 }}>
+					<Typography id='connect-page-header' variant='h2' fontSize='3em'>
 						Let's Connect
 					</Typography>
 				</Fade>
