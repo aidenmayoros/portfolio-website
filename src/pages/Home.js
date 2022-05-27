@@ -1,4 +1,4 @@
-import "../styles/HomePage.css";
+import "../styles/styles.css";
 import { Avatar } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import { Box } from "@mui/system";

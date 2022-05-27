@@ -4,7 +4,7 @@ import { Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@mui/material";
 import { Fade } from "react-reveal";
-import "../styles/projects.css";
+import "../styles/styles.css";
 
 export default function ProjectsPage() {
 	let navigate = useNavigate();

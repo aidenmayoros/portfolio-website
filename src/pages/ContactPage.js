@@ -5,16 +5,10 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Fade } from "react-reveal";
 import styled from "@emotion/styled";
-import "../styles/contact.css";
 
 const SocialBox = styled("div")({
-	// padding: "16px",
-	// margin: "16px",
 	display: "flex",
-	// flexDirection: "column",
 	alignItems: "center",
-	// border: "3px solid white",
-	// borderRadius: ".5em",
 });
 
 const iconStyles = {
@@ -34,7 +28,7 @@ export default function ContactPage() {
 			}}>
 			<Box>
 				<Fade left duration={1000}>
-					<Typography variant='h2' fontSize='3em' sx={{ mt: 4 }}>
+					<Typography variant='h2' fontSize='3em' sx={{ mt: 4, ml: 2 }}>
 						Let's Connect
 					</Typography>
 				</Fade>
@@ -52,7 +46,7 @@ export default function ContactPage() {
 							<Button href='mailto:aiden.mayoros@gmail.com'>
 								<EmailIcon color='primary' sx={iconStyles} />
 							</Button>
-							<Typography sx={{ color: "white" }}>
+							<Typography fontSize='1.3em' sx={{ color: "white" }}>
 								aiden.mayoros@gmail.com
 							</Typography>
 						</SocialBox>
@@ -60,19 +54,19 @@ export default function ContactPage() {
 							<Button disabled>
 								<LocalPhoneIcon color='primary' sx={iconStyles} />
 							</Button>
-							<Typography>Cell: (480)-408-9254</Typography>
+							<Typography fontSize='1.3em'>Cell: (480)-408-9254</Typography>
 						</SocialBox>
 						<SocialBox>
 							<Button href='https://github.com/aidenmayoros'>
 								<GitHubIcon color='primary' sx={iconStyles} />
 							</Button>
-							<Typography>Github</Typography>
+							<Typography fontSize='1.3em'>Github</Typography>
 						</SocialBox>
 						<SocialBox>
 							<Button href='https://www.linkedin.com/in/aiden-mayoros/'>
 								<LinkedInIcon color='primary' sx={iconStyles} />
 							</Button>
-							<Typography>LinkedIn</Typography>
+							<Typography fontSize='1.3em'>LinkedIn</Typography>
 						</SocialBox>
 					</Box>
 				</Fade>

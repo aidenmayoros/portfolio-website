@@ -1,9 +1,20 @@
 import { Box } from "@mui/material";
-import { useNavigate } from "react-router-dom";
-import { Button } from "@mui/material";
+import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
-	let navigate = useNavigate();
+	const navLinkStyles = ({ isActive }) => {
+		return {
+			fontSize: "1.5rem",
+			fontWeight: "500",
+			fontFamily: '"Roboto","Helvetica","Arial",sans-serif',
+			marginRight: "1em",
+			padding: "6px 16px",
+			textDecoration: "none",
+			backgroundColor: isActive ? "#1976d2" : "",
+			color: isActive ? "white" : "black",
+			borderRadius: "6px",
+		};
+	};
 
 	return (
 		<Box
@@ -15,7 +26,17 @@ export default function NavBar() {
 				color: "black",
 				backgroundColor: "#ffff",
 			}}>
-			<Button
+			<NavLink style={navLinkStyles} to='/'>
+				Home
+			</NavLink>
+			<NavLink style={navLinkStyles} to='/projects'>
+				Projects
+			</NavLink>
+			<NavLink style={navLinkStyles} to='/contact'>
+				Contact
+			</NavLink>
+
+			{/* <Button
 				variant='text'
 				onClick={() => navigate("/")}
 				sx={{
@@ -46,7 +67,7 @@ export default function NavBar() {
 					":hover": { backgroundColor: "black", color: "white" },
 				}}>
 				Contact
-			</Button>
+			</Button> */}
 		</Box>
 	);
 }

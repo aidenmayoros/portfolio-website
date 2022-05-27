@@ -1,11 +1,12 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { Fade } from "react-reveal";
-import "../styles/projects.css";
+import { Button } from "@mui/material";
+import "../styles/styles.css";
 
 export default function ProjectDetails({ project }) {
 	return (
-		<Box>
+		<Box className='project-details-container'>
 			<Box
 				sx={{
 					display: "flex",
@@ -14,7 +15,6 @@ export default function ProjectDetails({ project }) {
 					paddingLeft: "25%",
 					paddingRight: "25%",
 					background: "black",
-					height: "100vh",
 					textAlign: "center",
 				}}>
 				<Fade left duration={1000}>
@@ -25,8 +25,7 @@ export default function ProjectDetails({ project }) {
 						src={project.img}
 						alt='project preview'
 						style={{
-							width: "550px",
-							height: "350px",
+							width: "450px",
 							borderRadius: "12px",
 							marginTop: "2em",
 						}}></img>
@@ -63,6 +62,13 @@ export default function ProjectDetails({ project }) {
 					<Typography sx={{ mt: "2em", mb: 4, fontSize: 20 }}>
 						{project.technologiesUsed}
 					</Typography>
+					<Button
+						variant='contained'
+						onClick={() => {
+							window.location = project.appLink;
+						}}>
+						View Project
+					</Button>
 				</Fade>
 			</Box>
 		</Box>
