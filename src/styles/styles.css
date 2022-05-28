@@ -166,9 +166,13 @@ body::-webkit-scrollbar {
 }
 
 @media only screen and (min-width: 768px) {
+	.home-container {
+		background-position: center center;
+	}
+
 	.home-main-content {
-		left: 150px;
-		top: 120px;
+		margin-left: 10%;
+		margin-top: 10%;
 	}
 
 	.home-container h1 {
@@ -190,5 +194,14 @@ body::-webkit-scrollbar {
 
 	.home-page-buttons button {
 		margin-right: 1em;
+	}
+}
+
+@media only screen and (min-width: 1250px) {
+	.home-main-content {
+		position: relative;
+		margin: 0;
+		left: 10%;
+		top: 10%;
 	}
 }
