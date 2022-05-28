@@ -1,136 +1,131 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
-
 
 html {
-  background-color: black;
+	background-color: black;
 }
 
-body { 
-  color: white;
-  height: 100%;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  overflow-y: scroll; 
+body {
+	color: white;
+	height: 100%;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 
 .home-container {
-  background: url("../images/macbook1.jpg") no-repeat; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: right 50%;
-  height: calc(100vh - 72px);
+	background: url("../images/macbook1.jpg") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: right 50%;
+	height: calc(100vh - 72px);
 }
 
 .home-main-content {
-  left: 150px;
-  top: 120px;
+	left: 150px;
+	top: 120px;
 }
 
 .home-page-buttons {
-  display: flex;
-  margin-top: 1em;
+	display: flex;
+	margin-top: 1em;
 }
 
 .home-page-buttons button {
-  margin-right: 1em;
+	margin-right: 1em;
 }
 
 #connect-page-header {
-  margin-top: 1em;
-  text-align: center;
+	margin-top: 1em;
+	text-align: center;
 }
 
 .projects-page-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5vw;
-    text-align: center;
-    padding: 1em;
-    margin: 1em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5vw;
+	text-align: center;
+	padding: 1em;
+	margin: 1em;
 }
 
 .project-page-images {
-  width: 450px;
-  border-radius: 4px;
+	width: 450px;
+	border-radius: 4px;
 }
 
 .project-details-container {
-  height: calc(100vh - 72px);
+	height: calc(100vh - 72px);
 }
 
 @media only screen and (max-width: 480px) {
+	.home-container {
+		background-position: center center;
+		background-attachment: fixed;
+	}
 
-  .home-container {
-    background-position: center center;
-    background-attachment: fixed;
-  }
+	.home-container h1 {
+		font-size: 2.5em;
+	}
 
-  .home-container h1 {
-    font-size: 2.5em;
-  }
+	.home-container h2 {
+		font-size: 1.2em;
+	}
 
-  .home-container h2 {
-    font-size: 1.2em;
-  }
+	.home-container h4 {
+		font-size: 1.1em;
+	}
 
-  .home-container h4 {
-    font-size: 1.1em;
-  }
+	.home-main-content {
+		left: auto;
+		right: auto;
+		top: 10%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
-  .home-main-content {
-    left: auto;
-    right: auto;
-    top: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+	.home-page-buttons {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin-top: 1em;
+	}
 
-  .home-page-buttons {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 1em;
-  }
+	.home-page-buttons button {
+		margin-top: 0.5em;
+	}
 
-  .home-page-buttons button {
-    margin-top: .5em;
-  }
+	#connect-page-header {
+		font-size: 2em;
+		text-align: center;
+	}
 
-  #connect-page-header {
-    font-size: 2em;
-    text-align: center;
-  }
+	.projects-page-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 5vw;
+		text-align: center;
+		padding: 1em;
+		margin: 1em;
+	}
 
-  .projects-page-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 5vw;
-    text-align: center;
-    padding: 1em;
-    margin: 1em;
-}
-
-.project-page-images {
-  width: 300px;
-  border-radius: 4px;
-}
-
+	.project-page-images {
+		width: 300px;
+		border-radius: 4px;
+	}
 }
 
 @media only screen and (min-width: 481px) {
-
 }
 
 @media only screen and (min-width: 768px) {
-
 }
