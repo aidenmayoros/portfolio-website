@@ -18,15 +18,7 @@ export default function ProjectsPage() {
 				justifyContent: "center",
 				alignItems: "center",
 			}}>
-			<Box
-				sx={{
-					display: "grid",
-					gridTemplateColumns: "1fr 1fr",
-					gap: "5vw",
-					textAlign: "center",
-					padding: "1em",
-					m: "1em",
-				}}>
+			<Box className='projects-page-container'>
 				{projects.map((project, i) => {
 					return (
 						<Fade left duration={1000}>
@@ -35,10 +27,7 @@ export default function ProjectsPage() {
 									{project.projectName}
 								</Typography>
 								<img
-									style={{
-										width: "450px",
-										borderRadius: "4px",
-									}}
+									className='project-page-images'
 									src={project.img}
 									alt='Project Preview'></img>
 								<Box

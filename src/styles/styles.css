@@ -49,6 +49,20 @@ body::-webkit-scrollbar {
   text-align: center;
 }
 
+.projects-page-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+}
+
+.project-page-images {
+  width: 450px;
+  border-radius: 4px;
+}
+
 .project-details-container {
   height: calc(100vh - 72px);
 }
@@ -96,6 +110,20 @@ body::-webkit-scrollbar {
     font-size: 2em;
     text-align: center;
   }
+
+  .projects-page-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5vw;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+}
+
+.project-page-images {
+  width: 300px;
+  border-radius: 4px;
+}
 
 }
 
