@@ -5,7 +5,7 @@ import "../styles/styles.css";
 export default function NavBar() {
 	const navLinkStyles = ({ isActive }) => {
 		return {
-			fontSize: "1.5vw",
+			fontSize: "1.1vw",
 			fontWeight: "500",
 			fontFamily: '"Roboto","Helvetica","Arial",sans-serif',
 			padding: "10px",

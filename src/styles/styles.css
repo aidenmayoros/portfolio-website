@@ -29,23 +29,10 @@ body::-webkit-scrollbar {
 	height: calc(100vh - 72px);
 }
 
-.home-main-content {
-	left: 150px;
-	top: 120px;
-}
-
-.home-page-buttons {
-	display: flex;
-	margin-top: 1em;
-}
-
-.home-page-buttons button {
-	margin-right: 1em;
-}
-
 #connect-page-header {
 	margin-top: 1em;
 	text-align: center;
+	font-size: 3em;
 }
 
 .projects-page-container {
@@ -124,7 +111,7 @@ body::-webkit-scrollbar {
 	}
 }
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 481px) and (max-width: 769px) {
 	.home-container {
 		background-position: center center;
 		background-attachment: fixed;
@@ -179,4 +166,29 @@ body::-webkit-scrollbar {
 }
 
 @media only screen and (min-width: 768px) {
+	.home-main-content {
+		left: 150px;
+		top: 120px;
+	}
+
+	.home-container h1 {
+		font-size: 4em;
+	}
+
+	.home-container h2 {
+		font-size: 3em;
+	}
+
+	.home-container h4 {
+		font-size: 2em;
+	}
+
+	.home-page-buttons {
+		display: flex;
+		margin-top: 1em;
+	}
+
+	.home-page-buttons button {
+		margin-right: 1em;
+	}
 }
