@@ -1,18 +1,18 @@
-import { Box } from "@mui/material";
-import { NavLink } from "react-router-dom";
-import "../styles/styles.css";
+import { Box } from '@mui/material';
+import { NavLink } from 'react-router-dom';
+import '../styles/styles.css';
 
 export default function NavBar() {
 	const navLinkStyles = ({ isActive }) => {
 		return {
-			fontSize: "1.1vw",
-			fontWeight: "500",
+			fontSize: '1.2em',
+			fontWeight: '500',
 			fontFamily: '"Roboto","Helvetica","Arial",sans-serif',
-			padding: "10px",
-			textDecoration: "none",
-			backgroundColor: isActive ? "#1976d2" : "",
-			color: isActive ? "white" : "black",
-			borderRadius: "6px",
+			padding: '10px',
+			textDecoration: 'none',
+			backgroundColor: isActive ? '#1976d2' : '',
+			color: isActive ? 'white' : 'black',
+			borderRadius: '6px',
 		};
 	};
 
@@ -20,11 +20,11 @@ export default function NavBar() {
 		<Box
 			id='navbar-container'
 			sx={{
-				display: "flex",
-				padding: ".5em 0",
-				justifyContent: "center",
-				color: "black",
-				backgroundColor: "#ffff",
+				display: 'flex',
+				padding: '.5em 0',
+				justifyContent: 'center',
+				color: 'black',
+				backgroundColor: '#ffff',
 			}}>
 			<NavLink style={navLinkStyles} to='/'>
 				Home
