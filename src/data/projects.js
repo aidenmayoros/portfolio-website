@@ -65,15 +65,4 @@ export default [
 		technologiesUsed: 'HTML | CSS | JavaScript',
 		appLink: '/tic-tac-toe/app',
 	},
-	{
-		projectName: 'World Clock',
-		img: '/images/clock-preview.png',
-		pathLink: '/world_clock',
-		challenges:
-			"This project challenged me to learn Javascript's built-in async/await, I did not entirely understand exactly how promises worked before this project, but had a firm understanding after completion. It was a struggle at the start to understand how Javascript deals with asyncronous code, and challenged me to use async/await to grab data from OpenWeatherMap's public API.",
-		knowledgeLearned:
-			"I learned async/await and developed a knowledge of JavaScript promisses. This project also allowed me to deepen my knowledge of using API's.",
-		technologiesUsed: 'HTML | CSS | JavaScript | OpenWeatherMap API',
-		appLink: '/world_clock/app',
-	},
 ];
