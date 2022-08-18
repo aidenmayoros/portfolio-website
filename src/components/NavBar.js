@@ -1,5 +1,7 @@
 import { Box } from '@mui/material';
 import { NavLink } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import '../styles/styles.css';
 
 export default function NavBar() {
@@ -15,6 +17,12 @@ export default function NavBar() {
 			borderRadius: '6px',
 		};
 	};
+
+	const location = useLocation();
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [location]);
 
 	return (
 		<Box

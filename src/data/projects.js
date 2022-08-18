@@ -11,17 +11,6 @@ export default [
 		appLink: '/weather_forecast/app',
 	},
 	{
-		projectName: 'Image Carousel',
-		img: '/images/image-carousel-preview.png',
-		pathLink: '/image_carousel',
-		challenges:
-			'With this project I was fairly new to Javascript and wanted to learn something I had frequently seen on websites. This project was challenging for me since I was pretty new to CSS. I also grew a deeper understanding of setInterval so the carousel transitions through images every few seconds.',
-		knowledgeLearned:
-			"A key point I learned from this project was that using built-in Javascript methods made my code a lot nicer and easier to read & digest. This project was one of the first projects where I had to use HTML, CSS, and Javascript to query the DOM. I now understand the importance of using them, as they are just shortcuts to common programming tasks. I also learned that if I'm struggling with a specific issue, there are a lot of online resources & smart people out there that that I can refer to.",
-		technologiesUsed: 'HTML | CSS | JavaScript',
-		appLink: '/image_carousel/app',
-	},
-	{
 		projectName: 'DnD Character Website',
 		img: '/images/dndPreview.png',
 		pathLink: '/dnd_character',
@@ -44,6 +33,17 @@ export default [
 		appLink: '/calculator/app',
 	},
 	{
+		projectName: 'Tic Tac Toe with JavaScript',
+		img: '/images/tic-tac-toe-preview.png',
+		pathLink: '/tic-tac-toe',
+		challenges:
+			'Tic Tac Toe was one of the hardest projects for me and took a lot of time. I thought it would be fun to do and did not realize the extent of how much work it would be to make a game like this. It was difficult to make the flow of the game, determine winners, and create the computer playing. This project pushed me a lot when working on it to learn how to use methods, objects, arrays, and validation. This project challenged everything I had learned from previous and much more.',
+		knowledgeLearned:
+			'I learned the importance of keeping functions simple, and not stuffing too much logic into a single function. I seperated business logic into smaller functions and composed them together, which led to more readable & understandable code.',
+		technologiesUsed: 'HTML | CSS | JavaScript',
+		appLink: '/tic-tac-toe/app',
+	},
+	{
 		projectName: 'Mortgage Calculator with JavaScript',
 		img: '/images/mortgage-calculator-preview.png',
 		pathLink: '/mortgage_calculator',
@@ -55,14 +55,14 @@ export default [
 		appLink: '/mortgage_calculator/app',
 	},
 	{
-		projectName: 'Tic Tac Toe with JavaScript',
-		img: '/images/tic-tac-toe-preview.png',
-		pathLink: '/tic-tac-toe',
+		projectName: 'Image Carousel',
+		img: '/images/image-carousel-preview.png',
+		pathLink: '/image_carousel',
 		challenges:
-			'Tic Tac Toe was one of the hardest projects for me and took a lot of time. I thought it would be fun to do and did not realize the extent of how much work it would be to make a game like this. It was difficult to make the flow of the game, determine winners, and create the computer playing. This project pushed me a lot when working on it to learn how to use methods, objects, arrays, and validation. This project challenged everything I had learned from previous and much more.',
+			'With this project I was fairly new to Javascript and wanted to learn something I had frequently seen on websites. This project was challenging for me since I was pretty new to CSS. I also grew a deeper understanding of setInterval so the carousel transitions through images every few seconds.',
 		knowledgeLearned:
-			'I learned the importance of keeping functions simple, and not stuffing too much logic into a single function. I seperated business logic into smaller functions and composed them together, which led to more readable & understandable code.',
+			"A key point I learned from this project was that using built-in Javascript methods made my code a lot nicer and easier to read & digest. This project was one of the first projects where I had to use HTML, CSS, and Javascript to query the DOM. I now understand the importance of using them, as they are just shortcuts to common programming tasks. I also learned that if I'm struggling with a specific issue, there are a lot of online resources & smart people out there that that I can refer to.",
 		technologiesUsed: 'HTML | CSS | JavaScript',
-		appLink: '/tic-tac-toe/app',
+		appLink: '/image_carousel/app',
 	},
 ];
