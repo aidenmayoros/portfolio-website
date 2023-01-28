@@ -1,5 +1,16 @@
 export default [
 	{
+		projectName: 'React Expense Tracker',
+		img: '/images/expense-tracker-preview.png',
+		pathLink: '/expense_tracker',
+		challenges:
+			'This was a larger project that took me some time to complete. It involved a log in, register and forgot password page with validation. Then inside the app I used an API to generate some fake data every time it loads. It was created and styled with Material UI framework for easier to use components. Putting together all I know of frameworks and React to make this project was difficult but rewarding.',
+		knowledgeLearned:
+			'Learned to better use frameworks such as Material UI and to read the documentation of how it is set up and works when my componenets are not working as expected. I learned how to put a full APP together with validation, multiple pages and components and how they all fit and work together.',
+		technologiesUsed: 'React | React Router | Material UI',
+		appLink: '/expense_tracker/app',
+	},
+	{
 		projectName: 'Weather Forecast API',
 		img: '/images/weather-forecast-preview.png',
 		pathLink: '/weather_forecast',
