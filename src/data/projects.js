@@ -1,5 +1,17 @@
 export default [
 	{
+		projectName: 'MyFlix Movie App',
+		img: '/images/myflix-preview.png',
+		pathLink: '/myflix',
+		challenges:
+			'There were a lot of challenging moments when creating this app due to it being the first full project done with the MERN stack. Learning and building the database with Mongo was pretty hard to do and took some time to complete. Once it was done I created a backend API with express to make requests to the database. This was also a first for me and in doing so it was hard to get the API to work with all requests, and introduce authentication measures such as CORS and Passport. Getting the authentication measures to work and understanding how they work was a huge challenge. There were some front end challenges as well but most of the main challenges came from inexperience with back end technologies and how they function.',
+		knowledgeLearned:
+			'I learned a lot about Databases and Backend development.I learned about how to build a Node backend and host it.I learned about authentication and authorization on the server side and how to use libraries to help with that such as passport and CORS.I learned how to have both a hosted backend database and a hosted front end that makes requests to that backend.As my first MERN hosted app I learned and did a lot, and know that to get better I will need to have more practice using all these technologies.',
+		technologiesUsed:
+			'MERN stack | Mongo | Express | React | Node | Mongoose | React Router | JWT tokens | Passport Authentication | CORS | Material UI | Axios | Async Await',
+		appLink: 'https://aidens-myflix-api.herokuapp.com/login',
+	},
+	{
 		projectName: 'React Expense Tracker',
 		img: '/images/expense-tracker-preview.png',
 		pathLink: '/expense_tracker',
