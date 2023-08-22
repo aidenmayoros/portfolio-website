@@ -1,5 +1,17 @@
 export default [
 	{
+		projectName: 'Meet App',
+		img: '/images/Meet-app-preview.png',
+		pathLink: '/meet_app',
+		challenges:
+			'My biggest challenge with creating this project was learning how to use Test Driven Development and learning how to code tests. Learning how to code tests before writing any project code was very different for me and hard to grasp my head around at first. Knowing how you want your application to work before writing code I now see is very important. I also had a challenge with learning serverless functions with AWS Lambda. Having AWS perform as my server is very convenient and nice to use once set up. There is a learning curve for serverless functions or cloud computing but I hope to get better at it moving forward.',
+		knowledgeLearned:
+			"I learned through creating this project what is involved in writing tests for applications using a Test Driven Development technique or TDD. This involved learning how to write and use Reacts testing library to be able to write and use tests for React. I have learned the importance of writing and having tests for your applications and having the different types of tests involved (Unit, Integration and End to End tests). Next was learning how to use AWS Lambda functions to have a serverless backend. Through this method I was able to have AWS be my apps backend and make the server easy to use. I know I have a lot to learn about AWS or serverless technologies but this was a great start at becoming introduced into it. Next was learning Object Oriented Programming techniques. I learned how React used to be written with Class components and how that's different from how we use functional components and how functional components better fit into how Javascript operates. To finish it off I learned about Progressive Web Apps and how they compare and differ from regular web apps and native apps. I then learned how to implement progressive functionality into my built app so it could be used offline. ",
+		technologiesUsed:
+			'React | Async Await | AWS Lambda functions | React Testing Library | Google API | OAuth2 authentication',
+		appLink: 'https://aidenmayoros.github.io/meet/',
+	},
+	{
 		projectName: 'MyFlix Movie App',
 		img: '/images/myflix-preview.png',
 		pathLink: '/myflix',
@@ -10,6 +22,18 @@ export default [
 		technologiesUsed:
 			'MERN stack | Mongo | Express | React | Node | Mongoose | React Router | JWT tokens | Passport Authentication | CORS | Material UI | Axios | Async Await',
 		appLink: 'https://aidens-myflix-api.herokuapp.com/login',
+	},
+	{
+		projectName: 'Pokedex',
+		img: '/images/pokedex-preview',
+		pathLink: '/pokedex',
+		challenges:
+			'My challenge with this app was learning how to create from scratch a functional but custom modal. The goal was to create a modal from vanilla Javascript but I wanted to be more creative and create a modal that looks like a pokedex. I was able to create and get the modal working pretty easily but then making it work with the custom css for the pokedex look was the harder task. I would say the result was worth the challenge to make it work. ',
+		knowledgeLearned:
+			'I learned through this project how to better work with DOM manipulation and vanilla Javascript. It taught me how Javascript works to manipulate web pages in a way that we take for granted. Knowing how Javascript is able to create and fill HTML elements in the DOM is crucial to understanding how front end libraries and frameworks use this logic to create components for ease of use. ',
+		technologiesUsed:
+			'Javascript | HTML | CSS | jquery | IIFE (Immediately Invoked Function Expression) | API',
+		appLink: 'https://aidenmayoros.github.io/Pok-dex/',
 	},
 	{
 		projectName: 'React Expense Tracker',
