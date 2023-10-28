@@ -1,5 +1,16 @@
 export default [
 	{
+		projectName: 'myFlix Angular Client',
+		img: '/images/myFlix-angular-client-preview.png',
+		pathLink: '/myflix_angular_client',
+		challenges:
+			'This project was one of the hardest challenges I have faced in a long time. I first learned React and thought that Angular would be similar and I might be able to learn it with ease due to that but I was very wrong. Angular just felt so different and difficult to me. I understand its a framework and so it has similar features to React like Components and keeping sections of your app on their own and then rendering them together. To get this project working and learn the basics of Angular I had to invest a lot more time in reading the docs and learning from others on youtube explaining things in different ways. By the end of the project I started to understand it better but to get it more fully I would need to invest a lot more time into it I feel.',
+		knowledgeLearned:
+			'Learned the basics of Angular applications like; using Modules to organize the application, using Components as the building blocks of the app; using Directives to allow manipulation of the DOM and using dependency injection making it easy to manage and provide dependencies to the components.',
+		technologiesUsed: 'Angular | Angular Material UI | TypeDoc | Jsdoc',
+		appLink: 'https://aidenmayoros.github.io/myFlix-Angular-client/',
+	},
+	{
 		projectName: 'Chat App',
 		img: '/images/Chat-app-preview.png',
 		pathLink: '/chat_app',
