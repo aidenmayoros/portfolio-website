@@ -1,5 +1,17 @@
 export default [
 	{
+		projectName: 'Chat App',
+		img: '/images/Chat-app-preview.png',
+		pathLink: '/chat_app',
+		challenges:
+			"This being my first native app, this was a challenge learning how they are different from web apps. Using React Native did make it easier as I already know React but still it was different due to having different native methods and functionality. Project used Google's Firebase as well for storage which was a little difficult to implement and learn. Overall learning Google's Firebase was probably the hardest part of this project.",
+		knowledgeLearned:
+			'I learned through creating this project what is involved at a high level in creating native apps. I did really enjoy doing it and think that native development is really fascinating and interesting. I learned that you can write native apps with native specific languages like Swift and Java or in languages that transpile over to code that will work on both IOS and Android devices like React Native.',
+		technologiesUsed:
+			'React Native| Async Await | Expo| React Testing Library | Google Firestore DB | Google Firebase Authentication | AsyncStorage caching for offline use | Firebase Cloud Storage (for storing images) | Expo ImagePicker & MediaLibrary for communication features',
+		appLink: 'https://github.com/aidenmayoros/Chat-App',
+	},
+	{
 		projectName: 'Meet App',
 		img: '/images/Meet-app-preview.png',
 		pathLink: '/meet_app',
@@ -25,7 +37,7 @@ export default [
 	},
 	{
 		projectName: 'Pokedex',
-		img: '/images/pokedex-preview',
+		img: '/images/pokedex-preview.png',
 		pathLink: '/pokedex',
 		challenges:
 			'My challenge with this app was learning how to create from scratch a functional but custom modal. The goal was to create a modal from vanilla Javascript but I wanted to be more creative and create a modal that looks like a pokedex. I was able to create and get the modal working pretty easily but then making it work with the custom css for the pokedex look was the harder task. I would say the result was worth the challenge to make it work. ',
