@@ -19,17 +19,17 @@ export default function HomePage() {
 						sx={{ width: 100, height: 100, mb: 3 }}
 					/>
 				</Fade>
-				<Fade left delay={1000}>
+				<Fade left delay={800}>
 					<Typography variant='h4' fontWeight='200'>
 						Aiden Mayoros
 					</Typography>
 				</Fade>
-				<Fade left delay={2000}>
+				<Fade left delay={1200}>
 					<Typography variant='h4' fontWeight='200'>
-						Jr. Software Engineer and <br /> Web Developer
+						Full Stack Software Engineer and <br /> Web Developer
 					</Typography>
 				</Fade>
-				<Fade bottom delay={3000}>
+				<Fade bottom delay={1600}>
 					<Typography variant='h5' fontWeight='200' sx={{ mt: 5 }}>
 						Check out some of the awesome
 						<br /> projects I've made!
