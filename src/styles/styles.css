@@ -36,6 +36,13 @@ body::-webkit-scrollbar {
 	font-size: 1.3em;
 }
 
+.home-page-typography {
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 1em;
+	border-radius: 4px;
+	width: fit-content;
+}
+
 #connect-page-header {
 	margin-top: 1em;
 	text-align: center;
@@ -84,16 +91,15 @@ body::-webkit-scrollbar {
 	.home-container {
 		background-position: center center;
 		background-attachment: fixed;
-		height: 100vh;
+		min-height: 100vh;
 	}
 
 	.home-main-content {
+		padding-top: 2em;
 		left: auto;
 		right: auto;
-		top: 5%;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
 		text-align: center;
 	}
