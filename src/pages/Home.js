@@ -28,12 +28,10 @@ export default function HomePage() {
 							variant='h5'
 							fontWeight='200'
 							sx={{ maxWidth: { xs: 300, sm: 400, lg: 600 }, pt: 2 }}>
-							Web developer with a foundation in customer service. Proficient in
-							Javascript, CSS and HTML. Enjoys tackling intellectually
-							challenging tasks and crafting user-centered solutions to
-							problems. Has a keen enthusiasm for continuous learning and
-							staying updated on new skills and technologies to drive consistent
-							improvement.
+							I'm a web developer with a background in customer service which
+							helps me to make customer centered projects aimed at making simple
+							and easy to use solutions to sometimes complex problems. I am
+							currently available for full time, part time or freelance work.
 						</Typography>
 						<Typography variant='h5' fontWeight='200' sx={{ mt: 5 }}>
 							Check out some of the awesome
@@ -48,6 +46,13 @@ export default function HomePage() {
 						</Button>
 						<Button variant='contained' onClick={() => navigate('/contact')}>
 							Contact Me
+						</Button>
+						<Button variant='contained'>
+							<a
+								href={require('../data/AidenResume.pdf')}
+								download="Aiden's Resume">
+								Download Resume
+							</a>
 						</Button>
 					</Box>
 				</Fade>
