@@ -8,7 +8,7 @@ export default function ProjectDetails({ project }) {
 	return (
 		<Box className='project-details-container'>
 			<Box className='project-details'>
-				<Fade left duration={1000}>
+				<Fade duration={2000}>
 					<Typography
 						sx={{ mt: 3, mb: 2 }}
 						variant='h2'
@@ -28,7 +28,7 @@ export default function ProjectDetails({ project }) {
 						View Project
 					</Button>
 				</Fade>
-				<Fade left delay={1000}>
+				<Fade delay={1000} duration={2000}>
 					<Typography
 						sx={{ mt: 5, mb: 1, textDecoration: 'underline' }}
 						variant='h4'
@@ -39,7 +39,7 @@ export default function ProjectDetails({ project }) {
 						{project.challenges}
 					</Typography>
 				</Fade>
-				<Fade left delay={1000}>
+				<Fade delay={1000} duration={2000}>
 					<Typography
 						sx={{ mt: 5, mb: 1, textDecoration: 'underline' }}
 						variant='h4'

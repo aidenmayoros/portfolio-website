@@ -21,7 +21,7 @@ export default function ProjectsPage() {
 			<Box className='projects-page-container'>
 				{projects.map((project, i) => {
 					return (
-						<Fade left duration={1000}>
+						<Fade duration={2000}>
 							<Box key={i}>
 								<Typography variant='h5' sx={{ mb: '16px' }}>
 									{project.projectName}

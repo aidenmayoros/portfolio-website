@@ -12,7 +12,7 @@ export default function HomePage() {
 	return (
 		<Box className='home-container'>
 			<Box className='home-main-content' sx={{ position: 'relative' }}>
-				<Fade top>
+				<Fade delay={800}>
 					<Avatar
 						alt='Aiden Mayoros'
 						src='/images/aiden-avatar.jpg'
@@ -27,19 +27,18 @@ export default function HomePage() {
 						<Typography
 							variant='h5'
 							fontWeight='200'
-							sx={{ maxWidth: { xs: 300, sm: 400, lg: 600 }, pt: 2 }}>
+							sx={{ maxWidth: { sm: 400, lg: 600 }, pt: 2 }}>
 							I'm a web developer with a background in customer service which
 							helps me to make customer centered projects aimed at making simple
 							and easy to use solutions to sometimes complex problems. I am
 							currently available for full time, part time or freelance work.
 						</Typography>
 						<Typography variant='h5' fontWeight='200' sx={{ mt: 5 }}>
-							Check out some of the awesome
-							<br /> projects I've made!
+							Check out some of the projects I've made!
 						</Typography>
 					</Box>
 				</Fade>
-				<Fade bottom delay={1600}>
+				<Fade delay={1600}>
 					<Box className='home-page-buttons'>
 						<Button variant='contained' onClick={() => navigate('/projects')}>
 							View Projects
